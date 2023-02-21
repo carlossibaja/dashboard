@@ -1,5 +1,5 @@
 import React from 'react'
-import { LinkNav } from './LinkNav'
+import  LinkNav  from './LinkNav'
 import styles from '../../styles/Links.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -10,7 +10,7 @@ import LogoNotifications from '../../../public/bell.svg'
 import LogoCalendar from '../../../public/calendar.png'
 import LogoSettings from '../../../public/settings-2.svg'
 
-export const Links = () => {
+export default function Links() {
   return (
     <div className={styles.container} >
         <LinkNav name='HOME' >

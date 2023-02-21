@@ -5,7 +5,7 @@ import attachIcon from '../../../public/attach-2.svg'
 import moreVerticalIcon from '../../../public/more-vertical.svg'
 import Image from 'next/image'
 
-export const UserInfo = () => {
+export default function UserInfo()  {
   return (
     <div className={styles.container} >
         <div style={{display:'flex', alignItems:'center'}} >

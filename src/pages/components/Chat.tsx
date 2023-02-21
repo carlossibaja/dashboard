@@ -1,13 +1,13 @@
 import React from 'react'
-import { Message } from './Message'
-import { UserInfo } from './UserInfo'
+import  Message  from './Message'
+import  UserInfo  from './UserInfo'
 import styles from '../../styles/Chat.module.css'
 import Image from 'next/image'
 import IconEnviar from '../../../public/navigation-2.svg'
 import IconMas from '../../../public/plus.svg'
 import IconSmile from '../../../public/Smile-icon.png'
 
-export const Chat = () => {
+export default function Chat() {
   return (
     <div className={styles.chat} >
         <UserInfo></UserInfo>

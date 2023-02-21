@@ -2,12 +2,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-import { Menu } from './components/Menu'
-import { Layout } from './components/Layout'
+import  Menu  from './components/Menu'
+import Layout from './components/Layout'
 import IconSearch from '../../public/search-outline.svg' 
-import { Cards, Cards2 } from './components/Cards'
-import { UserInfo } from './components/UserInfo'
-import { Chat } from './components/Chat'
+import Cards from './components/Cards'
+import  UserInfo  from './components/UserInfo'
+import  Chat  from './components/Chat'
+import Cards2 from './components/Cards2'
 
 const inter = Inter({ subsets: ['latin'] })
 

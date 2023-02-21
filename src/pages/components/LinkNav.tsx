@@ -9,7 +9,7 @@ interface Props {
     children:React.ReactNode
 }
 
-export const LinkNav : FC<Props> = ({ name, children }) => {
+export default function LinkNav ({ name, children }:Props) {
   return (
     <div className={styles.buttomLink} >
         {children}

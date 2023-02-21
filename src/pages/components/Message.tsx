@@ -4,7 +4,7 @@ import profileImg from '../../../public/24.png'
 import moreHorizontal from '../../../public/more-horizontal.svg'
 import styles from '../../styles/Message.module.css'
 
-export const Message = () => {
+export default function Message () {
   return (
     <div style={{display:'flex', alignItems:'center', marginBottom:'10px' }} >
         <Image style={{borderRadius:'100%'}} src={profileImg} width={30} height={30} alt='' ></Image>
