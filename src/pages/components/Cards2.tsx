@@ -9,26 +9,29 @@ interface Props {
     name:string,
     action:string,
     time:string,
-    color:string
+    color:string,
+    children: JSX.Element,
+    content: string
 }
 
-export default function Cards2 ({name, action, time}:Props) {
+export default function Cards2 ({name, action, time, children, content}:Props) {
 
     return (
       <div className={styles.card2} >
           <div style={{display:'flex', justifyContent:'space-between', alignItems:'center', padding:'10px'}} >
               <div style={{display:'flex', alignItems:'center'}} >
-                  <Image style={{borderRadius:'100%', marginRight:'10px'}} src={Imagen} alt='profile' width={40} height={40} ></Image>
+                  {children}
+                  {/* <Image style={{borderRadius:'100%', marginRight:'10px'}} src={Imagen} alt='profile' width={40} height={40} ></Image> */}
                   <div style={{lineHeight:'17px'}} >
                       <p style={{fontSize:'17px', fontWeight:'600'}} >{name}</p>
-                      <p style={{fontSize:'13px', color:'white'}} >{action}</p>
+                      <p style={{fontSize:'13px', color:'#2A8BF2'}} >{action}</p>
                   </div>
               </div>
               <p style={{fontSize:'13px',color:'white', marginRight:'15px'}}>{time}</p>
           </div>
 
-          <div>
-            <p>plicabo sunt accusamus, obcaecati necessitatibus aliquid impedit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro ipsam autem, vero alias illum animi expedita facere consequuntur iusto sequi aliquid nam maiores dolorum rerum unde necessitatibus similique! Sint, quos. est doloribus laudantium. Accusantium cupiditate porro enim ea, officia eius quibusdam a.</p>
+          <div style={{margin:'10px'}} >
+            <p>{content}</p>
           </div>
 
           <div style={{backgroundColor:'',margin:'5px 0' ,display:'flex'}} >

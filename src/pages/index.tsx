@@ -9,6 +9,9 @@ import Cards from './components/Cards'
 import  UserInfo  from './components/UserInfo'
 import  Chat  from './components/Chat'
 import Cards2 from './components/Cards2'
+import Imagen from '../../public/25.png'
+import Imagen2 from '../../public/26.png'
+import Imagen3 from '../../public/24.png'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -38,9 +41,15 @@ export default function Home() {
 
           {/* --------------------CARDS----------- */}
           <div>
-            <Cards color='white' name="Luy Robin" action='Writes' time='1 minute ago' ></Cards>
-            <Cards2 color='' name="Jared Sunn" action='Records voice message' time='1 minute ago' ></Cards2>
-            <Cards color='#7CB8F7' name="Nika Jerrardo" action='Last online 5 hours ago' time='3 day ago' ></Cards>
+            <Cards content='Most of its text is made up from sections 1.10.32–3 of Ciceros De finibus bonorum et malorum (On the Boundaries of Goods and Evils; finibus may also be translated as purposes).' color='white' name="Luy Robin" action='Writes' time='1 minute ago' >
+              <Image style={{borderRadius:'100%', marginRight:'10px'}} src={Imagen} alt='profile' width={40} height={40} ></Image>
+            </Cards>
+            <Cards2 content='Voice Message (01:15)' color='' name="Jared Sunn" action='Records voice message' time='1 minute ago' >
+              <Image style={{borderRadius:'100%', marginRight:'10px'}} src={Imagen2} alt='profile' width={40} height={40} ></Image>
+            </Cards2>
+            <Cards content='Cicero famously orated against his political opponent Lucius Sergius Catilina.' color='#7CB8F7' name="Nika Jerrardo" action='Last online 5 hours ago' time='3 day ago' >
+              <Image style={{borderRadius:'100%', marginRight:'10px'}} src={Imagen3} alt='profile' width={40} height={40} ></Image>
+            </Cards>
           </div>
         </div>
 

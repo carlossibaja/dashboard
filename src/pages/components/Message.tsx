@@ -9,7 +9,7 @@ export default function Message () {
     <div style={{display:'flex', alignItems:'center', marginBottom:'10px' }} >
         <Image style={{borderRadius:'100%'}} src={profileImg} width={30} height={30} alt='' ></Image>
         <div className={styles.mensaje} >
-            <p>Aqui va el mensaje</p>
+            <p style={{color:'white'}} >Aqui va el mensaje</p>
         </div>
         <div style={{display:'flex', justifyContent:'center', alignItems:'center', marginLeft:'10px',borderRadius:'100%', padding:'5px'}} >
             <Image src={moreHorizontal} width={20} height={20} alt='' style={{borderRadius:'100%'}}  ></Image>
