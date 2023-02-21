@@ -1,0 +1,24 @@
+.container{
+    /* background-color: red; */
+    padding: 10px 0;
+    position: absolute;
+    top: 220px;
+    left: 45px;
+    width: 200px;
+}
+.link{
+    font-size: 14px;
+    padding: 4px;
+    text-decoration: none;
+    color: #707C97;
+    font-weight: 500;
+}
+.buttomLink{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+    padding: 5px;
+    margin: 20px 5px;
+    border-radius: 3px;
+}

@@ -1,0 +1,6 @@
+.Layout{
+    background-color: #F3F3FB;
+    display: grid;
+    grid-template-columns: 290px auto;
+    height: 100vh;
+}

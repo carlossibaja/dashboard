@@ -1,0 +1,9 @@
+.mensaje{
+    background-color:blue ;
+    padding: 15px 10px;
+    width:300px;
+    margin-left:10px ;
+    border-radius: 1px 7px 7px 7px;
+    background: linear-gradient(to right, #7CB8F7, #2A8BF2);
+
+}

@@ -1,0 +1,13 @@
+.card{
+    background-color: white;
+    padding: 10px 20px; 
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+.card2{
+    padding: 10px 20px; 
+    margin-bottom: 10px;
+    border-radius: 6px;
+    /* background: linear-gradient(to right, #7CB8F7, #2A8BF2); */
+    background-color: white;
+}

@@ -1,0 +1,31 @@
+.chat{
+    /* background-color: aqua; */
+    height: 800px;
+}
+.writes{
+    background-color: white;
+    padding: 10px;
+    /* position: absolute; */
+}
+.Icons{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    border-radius:100%;
+    background: linear-gradient(to right, #7CB8F7, #2A8BF2);
+    margin: 5px;
+}
+.input{
+    /* background-color: red; */
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 600px;
+    font-family: 'Poppins';
+    font-size: 13px;
+}
+.containerMessage{
+    /* background-color: #7CB8F7; */
+    height: 650px;
+}
